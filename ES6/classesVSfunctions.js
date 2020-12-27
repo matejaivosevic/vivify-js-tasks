@@ -16,7 +16,7 @@ function User() {
     let age = 23;
 
     function userAge() {
-        console.log(name);
+        console.log(age);
     }
 }
 User.prototype.hi = () => console.log('Hi!');
